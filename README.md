@@ -1,20 +1,15 @@
 # GoBarber
 
-Until now, only started to implemented the back-end of the application using [Node.js](https://nodejs.org/en/).
+An app to the barbers.
 
-## Technologies
+## [Backend](backend)
 
-For the application:
+The backend of the application
 
-- [Express](https://expressjs.com/)
-- [bcrypt](https://www.npmjs.com/package/bcrypt)
-- [date-fns](https://date-fns.org/)
-- [JWT](https://jwt.io/)
-- [Multer](https://github.com/expressjs/multer)
-- [TypeORM](https://typeorm.io/#/)
+## [Frontend](frontend)
 
-For code formatting:
+Application on web.
 
-- [Editor Config](https://editorconfig.org/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+## [App](appgobarber)
+
+Aplication on mobile devices.
