@@ -30,7 +30,7 @@ const SignUp: React.FC = () => {
   const history = useHistory();
 
   const handleSubmit = useCallback(
-    async (data: object) => {
+    async (data: SignUpFormData) => {
       try {
         formRef.current?.setErrors({});
 
@@ -65,7 +65,7 @@ const SignUp: React.FC = () => {
         }
 
         addToast({
-          type: 'success',
+          type: 'error',
           title: 'Erro nao cadastro',
           description: 'Ocorreu um erro ao fazer cadastro, tente novamente.',
         });
